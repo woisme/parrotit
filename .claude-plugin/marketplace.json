@@ -1,0 +1,20 @@
+{
+  "name": "parrotit",
+  "metadata": {
+    "description": "Use AI with your data, safely. Connect a desktop AI to your encrypted ParrotIt vault — read and save your details on demand, decrypted only on your own machine, with every action logged and revocable."
+  },
+  "owner": {
+    "name": "ParrotIt",
+    "url": "https://parrotit.app"
+  },
+  "plugins": [
+    {
+      "name": "parrotit",
+      "source": "./plugin",
+      "description": "Your desktop AI reads and saves details from your encrypted ParrotIt vault on demand — decrypted only on your device, every read and save logged, revocable any time. Sensitive data and saving are off by default.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["privacy", "personal-data", "forms", "encrypted", "vault"]
+    }
+  ]
+}

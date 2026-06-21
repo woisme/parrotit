@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "parrotit": {
+      "command": "npx",
+      "args": ["-y", "@parrotit/mcp-responder"],
+      "env": {
+        "PARROTIT_CLIENT_FAMILY": "claude-code"
+      }
+    }
+  }
+}

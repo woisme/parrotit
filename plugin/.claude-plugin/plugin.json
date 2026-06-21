@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "parrotit",
+  "displayName": "ParrotIt — use AI with your data, safely",
+  "version": "0.1.0",
+  "description": "Your desktop AI reads and saves details from your encrypted ParrotIt vault on demand. Values are decrypted only on your own machine; ParrotIt's servers never see them. Every read and save is logged and revocable. Sensitive data and saving are off by default.",
+  "author": {
+    "name": "ParrotIt",
+    "url": "https://parrotit.app"
+  },
+  "homepage": "https://parrotit.app/connect-ai",
+  "repository": "https://github.com/woisme/parrotit",
+  "license": "MIT",
+  "keywords": ["parrotit", "vault", "privacy", "personal-data", "forms", "encrypted", "mcp"]
+}

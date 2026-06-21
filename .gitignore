@@ -1,0 +1,7 @@
+# This repo is a plugin marketplace — it ships only manifests + docs.
+# Nothing should be built or installed here.
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
