@@ -1,0 +1,51 @@
+<svg viewBox="0 0 680 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Connect in three steps</title>
+  <desc id="d">Step 1: install the plugin with /plugin install parrotit. Step 2: run parrotit-mcp-responder pair, which shows a 6-digit code. Step 3: enter that code in the ParrotIt app to approve the connection.</desc>
+
+  <style>
+    text { fill: #F2F5F3; }
+    .sub { fill: #A7B2AC; }
+    .tert { fill: #75827C; }
+    .b { font-weight: 500; }
+    .mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill: #9FE8CC; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="168" rx="18" fill="#0F1714" stroke="#243029" stroke-width="1"/>
+  <text x="340" y="34" text-anchor="middle" font-size="16" class="b">Connect in three steps</text>
+
+  <defs>
+    <marker id="s" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#10B981"/>
+    </marker>
+  </defs>
+  <line x1="206" y1="101" x2="250" y2="101" stroke="#10B981" stroke-width="1.6" marker-end="url(#s)"/>
+  <line x1="430" y1="101" x2="474" y2="101" stroke="#10B981" stroke-width="1.6" marker-end="url(#s)"/>
+
+  <!-- step 1: install -->
+  <rect x="28" y="52" width="176" height="98" rx="13" fill="#18211D" stroke="#2A3832"/>
+  <circle cx="50" cy="76" r="11" fill="#11231C" stroke="#10B981" stroke-opacity="0.55"/>
+  <text x="50" y="80" text-anchor="middle" font-size="12" class="b" fill="#10B981">1</text>
+  <text x="70" y="80" font-size="13" class="b">Install</text>
+  <rect x="44" y="98" width="144" height="34" rx="7" fill="#0C120F" stroke="#283631"/>
+  <text x="116" y="119" text-anchor="middle" font-size="9.5" class="mono">/plugin install parrotit</text>
+
+  <!-- step 2: pair -->
+  <rect x="252" y="52" width="176" height="98" rx="13" fill="#18211D" stroke="#2A3832"/>
+  <circle cx="274" cy="76" r="11" fill="#11231C" stroke="#10B981" stroke-opacity="0.55"/>
+  <text x="274" y="80" text-anchor="middle" font-size="12" class="b" fill="#10B981">2</text>
+  <text x="294" y="80" font-size="13" class="b">Pair</text>
+  <rect x="268" y="94" width="144" height="26" rx="7" fill="#0C120F" stroke="#283631"/>
+  <text x="340" y="111" text-anchor="middle" font-size="9.5" class="mono">parrotit-mcp-responder pair</text>
+  <text x="340" y="138" text-anchor="middle" font-size="10.5" class="tert">shows a 6-digit code</text>
+
+  <!-- step 3: approve -->
+  <rect x="476" y="52" width="176" height="98" rx="13" fill="#18211D" stroke="#2A3832"/>
+  <circle cx="498" cy="76" r="11" fill="#11231C" stroke="#10B981" stroke-opacity="0.55"/>
+  <text x="498" y="80" text-anchor="middle" font-size="12" class="b" fill="#10B981">3</text>
+  <text x="518" y="80" font-size="13" class="b">Approve</text>
+  <!-- phone with check -->
+  <rect x="554" y="96" width="26" height="40" rx="5" fill="#11231C" stroke="#10B981" stroke-opacity="0.5"/>
+  <path d="M561 116 l3.4 3.4 l6.4 -7" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="494" y="112" font-size="10.5" class="sub">Enter the code in</text>
+  <text x="494" y="127" font-size="10.5" class="sub">the ParrotIt app</text>
+</svg>

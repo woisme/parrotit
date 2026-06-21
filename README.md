@@ -29,6 +29,8 @@ ParrotIt is a private vault for the details you get asked for over and over — 
 - **Remember new answers.** When you tell your AI a new detail about yourself, it can save it back to your vault for next time.
 - **Stay private.** The AI works with your data on your own computer. ParrotIt's servers only ever hold a scrambled, unreadable copy of your data plus the *names* of your fields — never the values.
 
+![Without ParrotIt you retype the same name, email and address into every form. With ParrotIt you save your details once and your AI fills every form from your encrypted vault.](docs/why-parrotit.svg)
+
 ---
 
 ## Before you connect — what this means
@@ -55,6 +57,8 @@ Disconnecting stops *future* access. Anything already read is in your AI's conte
 ---
 
 ## Set it up
+
+![Connect in three steps. Step 1: install the plugin with /plugin install parrotit. Step 2: run parrotit-mcp-responder pair, which shows a 6-digit code. Step 3: enter that code in the ParrotIt app to approve the connection.](docs/setup-steps.svg)
 
 **1. Install the plugin.** Run the two commands from [Install](#install-claude-code) above (if you haven't already). This wires up the connector automatically — there's no `claude_desktop_config.json` to edit by hand.
 
