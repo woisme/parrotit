@@ -4,6 +4,8 @@ Connect a desktop AI assistant — Claude Code, Claude Desktop, Cursor, and othe
 
 Your values are decrypted **only on your own machine**. Every read and save is **logged** in the ParrotIt app, and you can **disconnect** the AI at any time.
 
+![How ParrotIt works: your AI assistant asks the ParrotIt connector running on your own computer, which unlocks the value locally from your encrypted vault. ParrotIt's servers only ever hold a scrambled copy plus your field names — never your values. Every read and save is logged, sensitive data and saving are off by default, and you can disconnect any AI at any time.](docs/how-it-works.svg)
+
 ---
 
 ## Install (Claude Code)
