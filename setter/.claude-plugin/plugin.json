@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "parrotit-setter",
+  "displayName": "ParrotIt for setters: your forms, analytics, kiosks and Keys",
+  "version": "0.1.0",
+  "description": "Ask Claude about your ParrotIt account: forms, analytics, kiosks and Keys. It sees questions and counts, never what people wrote. Read only, except drafting a form if you allow it. Signs in with your ParrotIt account; disconnect any time.",
+  "author": {
+    "name": "ParrotIt",
+    "url": "https://parrotit.app"
+  },
+  "homepage": "https://parrotit.app/setter/integrations?tab=ai",
+  "repository": "https://github.com/woisme/parrotit",
+  "license": "MIT",
+  "keywords": ["parrotit", "forms", "analytics", "kiosk", "keys", "mcp"]
+}

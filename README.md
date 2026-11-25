@@ -21,6 +21,18 @@ Then pair your device once (see [Set it up](#set-it-up) below). That's it — no
 
 ---
 
+## Sending forms? Use `parrotit-setter`
+
+The plugin above is for people **filling** forms. If your business **sends** ParrotIt forms, install the setter plugin instead. Claude can then answer questions about your forms, analytics, kiosks and Keys. It sees questions and counts, never what people wrote.
+
+```
+/plugin install parrotit-setter --marketplace woisme/parrotit
+```
+
+On Claude.ai or Claude Desktop, add `https://parrotit.app/mcp` as a custom connector. Full details: [`setter/README.md`](setter/README.md).
+
+---
+
 ## What this does
 
 ParrotIt is a private vault for the details you get asked for over and over — names, contact details, dates, addresses, and so on. This plugin lets your AI assistant use that vault on your behalf:
